@@ -1,4 +1,6 @@
 <?php
+
+	// SOME FUNCTION FOR VALIDATION INPUTS
 	class Form{
 		public static function validName($arg){
 			return preg_match("#^[a-zA-ZàâäæçèéêëîïœùüûÀÂÄÆÇÈÉÊËÎÏŒÙÜÛ \-]+$#",$arg);
